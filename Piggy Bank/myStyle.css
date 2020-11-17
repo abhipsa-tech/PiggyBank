@@ -1,0 +1,105 @@
+.container{
+	width: 500px;
+	padding: 4% 4% 4%;
+	margin : auto;
+	background: transparent;
+	text-align: center;
+	position:relative;
+	top:100px;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+.btn-group-left{
+	float: left;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+.btn-group-right{
+	float: right;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+
+#datetime{
+	color: blue;
+	text-align: center;
+	position: relative;
+	top:5px;
+	vertical-align: middle;
+}
+.button{
+	width :300px;
+	margin :1px;
+	padding:2px;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #33cc33;
+	text-align: center;
+	color: white;
+	font-family: verdana;
+	text-decoration: none;
+	border-radius: 12px;
+	border: 2px solid teal;
+	line-height: 2em;
+}
+input[type=text],input[type=number],input[type=tel],input[type=email],input[type=password]{
+	border-radius: 4px;
+	width: 40%;
+	padding: 8px 8px;
+	margin: 2px 0;
+	border: 1px solid #ccc;
+	display: inline-block;
+}
+
+.button:hover {
+  background: #ff9933;
+ }
+
+.copyright{
+	text-align: center;
+	position:relative;
+	top:100px;
+	vertical-align: middle;
+}
+h2,h4{
+	text-decoration: underline;
+	color: blue;
+}
+
+h3{
+	color:#1f00a8;
+	font-family: helvetica;
+}
+
+a{
+	color:#ff0000;
+	text-decoration: none;
+	align-content: right;
+}
+
+body{
+	background-image: url(page2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+p{
+	padding: 1px;
+	margin: 1px;
+}
+
+a:hover{
+	color: orangered;
+	text-decoration: underline;
+}
